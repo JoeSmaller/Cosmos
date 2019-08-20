@@ -1,0 +1,92 @@
+{
+	"name": "Cosmos",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#1e1e1e",
+		"editor.foreground": "#eeffff"
+	},
+	"tokenColors": [
+		{
+			"name": "Comment Color",
+			"scope": [
+				"comment",
+				"punctuation.definition.comment",
+				"constant.character"
+			],
+			"settings": {
+				"foreground": "#00D400"
+			}
+		},
+		{
+			"name": "Number Color",
+			"scope": [
+				"constant.numeric"
+			],
+			"settings": {
+				"foreground": "#00FFFF"
+			}
+		},
+		{
+			"name": "Built-in Function Color",
+			"scope": [
+				"support",
+				"entity",
+				"support.function"
+			],
+			"settings": {
+				"foreground": "#0575ff"
+			}
+		},
+		{
+			"name": "Operator Color",
+			"scope": [
+				"keyword.operator",
+				"punctuation.separator",
+				"punctuation.terminator",
+				"support.constant"
+			],
+			"settings": {
+				"foreground": "#FFFF00"
+			}
+		},
+		{
+			"name": "Keyword Color",
+			"scope": [
+				"variable.language",
+				"storage",
+				"keyword.control",
+				"constant.language"
+			],
+			"settings": {
+				"foreground": "#E90000"
+			}
+		},
+		{
+			"name": "String Color",
+			"scope": [
+				"string"
+			],
+			"settings": {
+				"foreground": "#ff00ff"
+			}
+		},
+		{
+			"name": "Function Parameter Color",
+			"scope": [
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#ff9022"
+			}
+		},
+		{
+			"name": "Error Color",
+			"scope": [
+				"invalid"
+			],
+			"settings": {
+				"foreground": "#ff8000"
+			}
+		}
+	]
+}

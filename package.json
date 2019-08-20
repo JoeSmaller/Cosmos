@@ -1,0 +1,21 @@
+{
+    "name": "cosmos",
+    "displayName": "cosmos",
+    "description": "Bright colors in a dark theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Cosmos",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Cosmos-color-theme.json"
+            }
+        ]
+    }
+}
