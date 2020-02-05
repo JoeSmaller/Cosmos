@@ -14,7 +14,8 @@
 				"constant.character"
 			],
 			"settings": {
-				"foreground": "#00D400"
+				"foreground": "#00D400",
+				"fontStyle": "italic"
 			}
 		},
 		{
